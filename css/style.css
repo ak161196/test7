@@ -1,0 +1,206 @@
+/* Шрифт */
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../fonts/Poppins-ExtraBold.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'コーポレート・ロゴ丸文字もじモジ'; 
+    src: url('../fonts/コーポレート・ロゴ丸文字もじモジ.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'ZenMaruGothic-Regular';
+    src: url('../fonts/ZenMaruGothic-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'DFPOP1 W9';
+    src: url('../fonts/DFPOP1\ W9.ttf') /* IE9 Compat Modes */
+  }
+
+
+/* Настройки */
+
+* {
+    margin: 0;
+    padding: 0; 
+    background: #f1eee7;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+div, p, form, input, a, span, button, h1 {
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: #f1eee7;
+    height: 600px;
+}
+
+
+
+/* Navbar меню */
+
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+
+ul{
+    display: flex;
+}
+
+.menu {
+    display: block;
+}
+
+.menu a{
+    font-family: 'Poppins-Medium';
+    color: #605f5d;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 65px 31px 20px;
+    position: relative;
+    transition: 0.1s; 
+}
+
+.menu a:hover {
+    color: #fcf9f9;
+    background:#4e8c81;
+    border-radius: 0 0 30px 30px;
+} 
+
+/* картинка */
+
+.girl {
+    width: 276px;
+}
+
+/* Заголовок */
+
+.header-h1{
+    color: #f77e66;
+    font-family: 'コーポレート・ロゴ丸文字もじモジ';
+}
+
+.h1{
+    font-size: 137.5px;
+    margin-left: -9px;
+}
+
+.iki {
+    margin-top: -166px;
+    color: #2e2c2d;
+    margin-left: -4px;
+    font-size: 137.5px;
+}
+
+/* Под текст */
+
+.header-content-p {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.header-p {
+    font-size: 15.18px;
+}
+
+.header-p-text{
+    width: 252px;
+    font-family: 'ZenMaruGothic-Regular';
+    font-size: 15px;
+}
+.g{
+    font-family: 'DFPOP1 W9';
+}
+
+/* Кнопка */
+
+.btn{
+    padding: 0;
+}
+
+.btn a{
+    cursor: pointer;
+    color:#fff;
+    text-decoration: none;
+    background:#4e8c81;
+    padding: 15px 18px;
+    border-radius:5px;
+    font-size: 14px;
+}
+
+.btn a:hover{
+    color: #2e2c2d;
+    background:#f77e66
+}
+
+/* 2 экран */
+
+.text-one {
+    background: #f1ede7;
+}
+
+.text-two{
+    background:#f3d0c4;
+    border-radius:0 25px 25px 0;
+}
+
+/* 3 экран */
+
+.search-product h1{
+    font-size: 14px;
+}
+
+/* 4 экран */
+
+.map {
+    width: 351px;
+}
+
+.fonts-icon {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+/* 5 экран */
+
+.menu-footer {
+    display: block;
+}
+
+.menu-footer li {
+    display: block;
+}
+
+.menu-footer a {
+    text-decoration: none;
+}

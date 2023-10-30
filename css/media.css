@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    
+    .girl {
+        display: none;
+    }
+
+    body {
+        text-align: center;
+    }
+    .col {
+        justify-content: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .block-me {
+        flex-direction: column;
+    }
+
+   
+}
